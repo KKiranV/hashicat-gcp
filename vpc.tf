@@ -10,7 +10,7 @@ module "vpc" {
         {
             subnet_name           = "gaurav-subnet-01"
             subnet_ip             = "10.100.10.0/24"
-            subnet_region         = "var.region"
+            subnet_region         = var.region
         },
      ]
 
